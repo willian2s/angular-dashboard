@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Bic Preta",
+      "price": 7.45
+    },
+    {
+      "id": 2,
+      "name": "Borracha Branca",
+      "price": 3.45
+    }
+  ]
+}
