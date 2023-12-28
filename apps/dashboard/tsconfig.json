@@ -1,0 +1,7 @@
+{
+  "extends": "@angular-dashboard/typescript-config/angular.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc"
+  }
+}
