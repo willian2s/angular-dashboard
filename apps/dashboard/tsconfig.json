@@ -2,6 +2,12 @@
   "extends": "@angular-dashboard/typescript-config/angular.json",
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc"
+    "outDir": "./dist/out-tsc",
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@components/*": ["src/app/components/*"],
+      "@directives/*": ["src/app/directives/*"],
+      "@views/*": ["src/app/views/*"]
+    }
   }
 }
